@@ -1,3 +1,4 @@
 # Coding Challenges Repository
 
-Welcome to my collection of coding challenges! This repository contains various programming exercises and solutions to help sharpen your coding skills.
+Welcome to my collection of coding challenges!
+This repository is dedicated to solving coding challenges from different platforms. Each challenge is stored in its own directory.
