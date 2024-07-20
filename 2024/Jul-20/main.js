@@ -9,6 +9,7 @@
 // [] --> []
 // ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 
+//Solution 1:
 var number=function(array){
     let newArr = array
     for (i = 0; i < newArr.length; i++){
@@ -16,4 +17,11 @@ var number=function(array){
       newArr[i] = `${numbering}: ${newArr[i]}`;
     }
     return newArr
+  }
+
+//Solution 2:
+var number = function(array) {
+    return array.map(function (line, index) {
+      return (index + 1) + ": " + line;
+    });
   }
